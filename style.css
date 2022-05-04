@@ -1,0 +1,39 @@
+body {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  margin-top: 4rem;
+}
+
+.container {
+  width: 30%;
+  text-align: center;
+}
+
+p {
+  padding: 1rem;
+  margin: 0;
+}
+.text {
+  opacity: 0;
+  background-color: burlywood;
+  transform: translateY(50%);
+  transition: all 1000ms;
+}
+
+.text2 {
+  opacity: 1;
+  background-color: rgb(164, 219, 189);
+  transform: translateY(0%);
+  transition: all 1000ms;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#titel {
+  background-color: #efd008;
+  cursor: pointer;
+  color: rgb(44, 73, 203);
+  font-size: 1.2rem;
+  border-radius: 10px 10px 0px 0px;
+}

@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  width: 30%;
+  width: 25%;
   text-align: center;
 }
 
@@ -19,6 +19,7 @@ p {
   background-color: burlywood;
   transform: translateY(50%);
   transition: all 1000ms;
+  font-size: 1.3rem;
 }
 
 .text2 {
